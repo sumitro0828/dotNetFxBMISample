@@ -20,7 +20,7 @@ namespace HealthMgr.Tests
 
             var result = bmi.Calculate();
 
-            Assert.AreEqual("24.22", "24.22");
+            Assert.AreEqual("24.22", result.ToString("00.00"));
         }
     }
 }
